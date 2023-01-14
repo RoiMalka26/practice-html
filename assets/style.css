@@ -1,0 +1,33 @@
+#fancyDiv {
+  width: 400px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  margin: 50% auto;
+
+  background-image: linear-gradient(45deg, yellow, black, red, blue);
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px gray;
+  padding-top: 30px;
+  box-sizing: border-box;
+  border: 3px solid black;
+
+  font-family: fabFont;
+
+  animation: RoiMalkaCoolAnimation 5s infinite linear reverse;
+}
+
+@font-face {
+  font-family: fabFont;
+  src: url(fonts/Fabulous\ Script.ttf);
+}
+
+@keyframes RoiMalkaCoolAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
